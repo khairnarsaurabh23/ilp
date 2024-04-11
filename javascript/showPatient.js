@@ -37,8 +37,8 @@ function showPatient(index=0){
         html += "<tr>";
         html += "<td>" + (index?index:startIndex+ind+1) + "</td>";
         html += "<td>" + element.patientName + "</td>";
-        html += `<td ><h2 onclick="updatePatient(${ind})" id="update" ><img src="../images/edit.png" alt=""></h2></td>`;
-        html += `<td><p onclick="deletePatient(${ind})"><img src="../images/delete.png" alt=""></p></td>`;
+        html += `<td class='pointer'><h2 onclick="updatePatient(${ind})" id="update" ><img src="../images/edit.png" alt=""></h2></td>`;
+        html += `<td class='pointer'><p onclick="deletePatient(${ind})"><img src="../images/delete.png" alt=""></p></td>`;
         html += `<td onclick="add(${ind})" id="view"><a href="viewPatient.html">View</a></td>`;
         html += "</tr>";
 

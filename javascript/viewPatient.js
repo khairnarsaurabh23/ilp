@@ -14,7 +14,7 @@ window.onload = function(){
     var address = document.getElementById("address");
     let userId = document.getElementById("userId");
 
-    const ind = localStorage.getItem("update")
+    const ind = localStorage.getItem("index")
     const current = JSON.parse(localStorage.getItem("patientList"))[ind];
 
     patientId.value = current.patientId;

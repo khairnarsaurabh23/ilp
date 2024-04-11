@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+    <div id="popup"></div>
     <div class="login-wrapper">
         <div class="login-img">
             <img src="../images/hospital2.png" alt="">
@@ -34,7 +35,7 @@
                     <input type="password" placeholder="Enter password..." id="password" required>
                 </div>
                 <div class="login-button">
-                    <input type="submit" value="Submit" onclick="signup()">
+                    <input type="submit" value="Submit" onclick="signup(event)">
                 </div>
             </form>
             <div class="log-bottom">
@@ -47,5 +48,6 @@
 
 
     <script src="../javascript/adminSignup.js"></script>
+    <!-- <script src="../javascript/showMessage.js"></script> -->
 </body>
 </html>

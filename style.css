@@ -365,3 +365,13 @@ html, body{
 .add-btn button:hover a{
     color: white;
 }
+
+.pointer{
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+.pointer:hover {
+    background: rgba(72, 81, 148, 0.1);
+}
