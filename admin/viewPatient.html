@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Patient Details</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="signup-wrapper">
+        <div class="patient-card">
+            <div class="login-title">
+                <h1>Patient Details</h1>
+            </div>
+            <!-- <form action="#">
+                <div class="log-id">
+                    <h2>Patient Id</h2>
+                    <input type="number" placeholder="Enter patient id..." required>
+                </div>
+                <div class="log-id">
+                    <h2>Patient Name</h2>
+                    <input type="text" placeholder="Enter patient name..." required>
+                </div>
+                <div class="log-id">
+                    <h2>Room No</h2>
+                    <input type="number" placeholder="Enter room no..." required>
+                </div>
+                <div class="log-id">
+                    <h2>Doctor Id</h2>
+                    <input type="number" placeholder="Enter doctor id..." required>
+                </div>
+                <div class="log-id">
+                    <h2>Doctor Name</h2>
+                    <input type="text" placeholder="Enter doctor name..." required>
+                </div>
+                <div class="log-id" id="short-width">
+                    <h2>Age</h2>
+                    <input type="number" placeholder="Enter age..." required>
+                </div>
+                <div class="log-id" id="gender">
+                    <h2>Gender</h2>
+                    <label for="male">Male</label>
+                    <input type="radio" value="Male" id="male" name="gender" required>
+                    <label for="female">Female</label>
+                    <input type="radio" value="Female" id="female" name="gender" required>
+                </div>
+
+                <div class="pat-info">
+                    <div class="log-id" id="short-width">
+                        <h2>Height</h2>
+                        <input type="number" placeholder="Enter height..." required>
+                    </div>
+                    <div class="log-id" id="short-width">
+                        <h2>Weight</h2>
+                        <input type="number" placeholder="Enter weight..." required>
+                    </div>
+                    <div class="log-id">
+                        <h2>Blood Group</h2>
+                        <select name="bloodgrp" id="bloodgrp" required>
+                            <option value="bloodgrp">Select</option>
+                            <option value="A+">A+</option>
+                            <option value="B+">B+</option>
+                            <option value="A+">A-</option>
+                            <option value="B-">B-</option>
+                            <option value="O">O+</option>
+                            <option value="O-">O-</option>
+                            <option value="AB+-">AB+</option>
+                            <option value="AB-">AB-</option>
+                        </select>
+                    </div>
+                </div>
+                
+                
+                <div class="log-id">
+                    <h2>Address</h2>
+                    <textarea name="address" id="address" cols="143" rows="2" placeholder="Enter address..." required></textarea>
+                </div>
+                <div class="log-id">
+                    <h2>User Id</h2>
+                    <input type="text" placeholder="Enter user id..." required>
+                </div>
+            </form> -->
+
+            <form action="#">
+                <div class="log-id">
+                    <h2>Patient Id</h2>
+                    <input type="number" placeholder="Enter patient id..." id="patientId" required>
+                </div>
+                <div class="log-id">
+                    <h2>Patient Name</h2>
+                    <input type="text" placeholder="Enter patient name..." id="patientName" required>
+                </div>
+                <div class="log-id">
+                    <h2>Room No</h2>
+                    <input type="number" placeholder="Enter room no..." id="roomNo" required>
+                </div>
+                <div class="log-id">
+                    <h2>Doctor Id</h2>
+                    <input type="number" placeholder="Enter doctor id..." id="doctorId" required>
+                </div>
+                <div class="log-id">
+                    <h2>Doctor Name</h2>
+                    <input type="text" placeholder="Enter doctor name..." id="doctorName" required>
+                </div>
+                <div class="log-id" id="short-width">
+                    <h2>Age</h2>
+                    <input type="number" placeholder="Enter age..." id="age" required>
+                </div>
+                <div class="log-id" >
+                    <h2 style="display: inline-flex;">Gender: </h2>
+                    <span style="color:black;" id="gender"></span>
+                    <!-- <label for="male">Male</label>
+                    <input type="radio" value="Male" id="male" name="gender" required>
+                    <label for="female">Female</label>
+                    <input type="radio" value="Female" id="female" name="gender" required> -->
+                </div>
+            
+                <div class="pat-info">
+                    <div class="log-id" id="short-width">
+                        <h2>Height</h2>
+                        <input type="number" placeholder="Enter height..." id="height" required>
+                    </div>
+                    <div class="log-id" id="short-width">
+                        <h2>Weight</h2>
+                        <input type="number" placeholder="Enter weight..." id="weight" required>
+                    </div>
+                    <div class="log-id">
+                        <h2>Blood Group</h2>
+                        <select name="bloodgrp" id="bloodgrp" required>
+                            <option value="bloodgrp">Select</option>
+                            <option value="A+">A+</option>
+                            <option value="B+">B+</option>
+                            <option value="A+">A-</option>
+                            <option value="B-">B-</option>
+                            <option value="O">O+</option>
+                            <option value="O-">O-</option>
+                            <option value="AB+-">AB+</option>
+                            <option value="AB-">AB-</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="log-id">
+                    <h2>Address</h2>
+                    <textarea name="address" id="address" cols="143" rows="2" placeholder="Enter address..." required></textarea>
+                </div>
+            </form>
+            
+            
+        </div>
+    </div>
+    
+
+
+    <script src="../javascript/viewPatient.js"></script>
+</body>
+</html>

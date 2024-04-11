@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="login-wrapper">
+        <div class="login-img">
+            <img src="../images/hospital2.png" alt="">
+        </div>
+        <div class="signup-card">
+            <div class="login-title">
+                <h1>Sign Up</h1>
+            </div>
+            <form action="#">
+                <div class="log-id">
+                    <h2>User Id</h2>
+                    <input type="text" placeholder="Enter user id..." id="userid" required>
+                </div>
+                <div class="log-id">
+                    <h2>Mobile Number</h2>
+                    <input type="text" placeholder="Enter mobile no..." id="mobile" required>
+                </div>
+                <div class="log-id">
+                    <h2>Email ID:</h2>
+                    <input type="email" placeholder="Enter email..." id="email" required>
+                </div> 
+                <div class="log-id">
+                    <h2>Password</h2>
+                    <input type="password" placeholder="Enter password..." id="password" required>
+                </div>
+                <div class="login-button">
+                    <input type="submit" value="Submit" onclick="signup()">
+                </div>
+            </form>
+            <div class="log-bottom">
+                <p>Already Registered? <a href="login.html">Login</a></p>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+    <script src="../javascript/adminSignup.js"></script>
+</body>
+</html>

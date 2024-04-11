@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, 'sen-serif';
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+/* Index Page */
+
+.index-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #515DB1;
+}
+
+.title{
+    color: white;
+    padding-top: 5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.index-card{
+    width: 30%;
+    height: 30vh;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    text-align: center;
+}
+
+.index-card h1{
+    color: #515DB1;
+}
+
+.admin-pat-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+
+.index-card a{
+    text-decoration: none;
+    color: #515DB1;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.button{
+    background-color: #515DB1;
+    padding: 0.5rem 0.8rem;
+    /* color: white; */
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+.button:hover{
+    background-color: black;
+}
+
+.button a{
+    color: white;
+}
+
+.button:hover a{
+    color: #515DB1;
+}
+
+.button h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+/* Login Page */
+
+.login-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #515DB1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.login-img img{
+    width: 75%;
+}
+
+.login-img{
+    animation: float 4s ease-in infinite;
+}
+
+@keyframes float{
+    50%{
+        transform: translateY(20px)
+    }
+}
+
+.login-card{
+    width: 25%;
+    height: 60%;
+    background-color: white;
+    border-radius: 0.8rem;
+    padding: 1rem 1.3rem;
+    color: #515DB1;
+}
+
+.login-title h1{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.login-title{
+    margin-bottom: 1rem;
+}
+
+.log-id h2, .log-password h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.log-id{
+    margin-bottom: 1rem;
+}
+
+.log-id input{
+    border: 1px solid #dadada;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+    width: 100%;
+}
+
+.log-password{
+    margin-bottom: 1.5rem;
+}
+
+.login-button input{
+    background-color: #515DB1;
+    padding: 0.4rem 2rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all linear 0.1s;
+}
+
+.login-button input:hover{
+    background-color: #485194;
+}
+
+.login-button{
+    margin-bottom: 1rem;
+}
+
+.log-bottom p{
+    font-size: 1rem;
+    color: black;
+}
+
+.log-bottom a{
+    font-size: 1rem;
+    color: #515DB1;
+    text-decoration: none;
+}
+
+.log-bottom a:hover{
+    color: #364191;
+}
+
+/* Patient Page */
+
+.patient-card{
+    width: 80%;
+    background-color: white;
+    border-radius: 0.8rem;
+    padding: 1rem 1.3rem;
+    color: #515DB1;
+    margin: 0 auto;
+}
+
+.signup-wrapper{
+    width: 100%;
+    height: auto;
+    background-color: #515DB1;
+    gap: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.log-id textarea{
+    border: 1px solid #dadada;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+    width: 100%;
+}
+
+#gender input{
+    width: 3%;
+}
+
+#short-width{
+    width: 15%;
+}
+
+.pat-info{
+    display: flex;
+    justify-content: start;
+    gap: 4rem;
+    align-items: center;
+}
+
+.log-id select{
+    border: 1px solid #dadada;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+    width: 90%;
+}
+
+#add-btn{
+    display: flex;
+    justify-content: center;
+}
+
+/* Sign Up Page */
+
+.signup-card{
+    width: 25%;
+    height: auto;
+    background-color: white;
+    border-radius: 0.8rem;
+    padding: 1rem 1.3rem;
+    color: #515DB1;
+}
+
+/* Admin Home Page */
+
+.patient-list-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #515DB1;
+}
+
+.heading h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.search-tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #dadada;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    padding: 0.8rem 2rem;
+}
+
+.search-tab input{
+    background-color: white;
+    outline: none;
+    border: none;
+    outline: none;
+    width: 90%;
+}
+
+.search-btn img{
+    width: 100%;
+    border-left: 1px solid #515DB1;
+    padding: 0 0 0 1rem;
+}
+
+.patient-list-card{
+    max-width: 80%;
+    max-height: 60vh;
+    height: auto;
+    overflow: auto;
+    margin: 0 auto;
+    background-color: white;
+    color: #515DB1;
+    border-radius: 0.8rem;
+    border: 1px solid #dadada;
+    margin-bottom: 1rem;
+}
+
+.patient-table table{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.patient-table table td{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+#view a{
+    background-color: #515DB1;
+    text-decoration: none;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 100px;
+}
+
+/* Fetch Patient List */
+
+.add-btn{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.add-btn button{
+    background-color: white;
+    padding: 0.6rem 1rem;
+    color: #364191;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+
+.add-btn button:hover{
+    background-color: black;
+}
+
+.add-btn button a{
+    text-decoration: none;
+}
+
+.add-btn button:hover a{
+    color: white;
+}

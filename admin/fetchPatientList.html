@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | Patient List</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="patient-list-wrapper">
+        <div class="heading">
+            <h1>Patient List</h1>
+        </div>
+        <div class="search-tab">
+            <input id="search-input" type="text" placeholder="Search...">
+            <div onclick="handleSearch()" class="search-btn">
+                <img  src="../images/search-line.png" alt="">
+            </div>
+        </div>
+        <div class="patient-list-card">
+    
+            <div class="patient-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Patient Id</th>
+                            <th>Patient Name</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                            <th>View Details</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="add-btn">
+            <button><a href="../admin/addPatient.html">Add Patient</a></button>
+            <div id="paginationControls"></div>
+        </div>
+        
+    </div>
+
+
+    <script src="../javascript/showPatient.js"></script>
+    <!-- <script src="../javascript/deletePatient.js"></script> -->
+    <!-- <script src="../javascript/updatePatient.js"></script> -->
+    <!-- <script src="../javascript/viewPatient.js"></script> -->
+</body>
+</html>
