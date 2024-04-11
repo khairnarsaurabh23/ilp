@@ -16,9 +16,9 @@ function PatientSignup(e,r=false){
     console.log("function called")
     var patientId = document.getElementById("patientId").value;
     var patientName = document.getElementById("patientName").value;
-    var roomNo = document.getElementById("roomNo").value;
-    var doctorId = document.getElementById("doctorId").value;
-    var doctorName = document.getElementById("doctorName").value;
+    // var roomNo = document.getElementById("roomNo").value;
+    // var doctorId = document.getElementById("doctorId").value;
+    // var doctorName = document.getElementById("doctorName").value;
     var age = document.getElementById("age").value;
     var gender = document.querySelector('input[name="gender"]:checked').value;
     var height = document.getElementById("height").value;
@@ -30,9 +30,9 @@ function PatientSignup(e,r=false){
     const patient = {
         "patientId":patientId,
         "patientName":patientName,
-        "roomNo":roomNo,
-        "doctorId":doctorId,
-        "doctorName":doctorName,
+        // "roomNo":roomNo,
+        // "doctorId":doctorId,
+        // "doctorName":doctorName,
         "age":age,
         "gender":gender,
         "height":height,
